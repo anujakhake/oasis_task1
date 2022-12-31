@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lavender;
+}
+.home{
+    height: 100vh;
+    padding: 100px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(46, 5, 5);
+    font-size: 100px;
+    font-weight: 900;
+}
+.description{
+    padding: 200px 200px;
+    width: 900px;
+    position: absolute;
+    z-index: 999;
+}
+.description h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(46, 5, 5);
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+}
+.description p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    color:rgb(46, 5, 5) ;
+    width: 700px;
+}
+.home img{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 150px;
+    left: 55%;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+    margin: 0 30px;
+}
+.menu{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+.menu a{
+    color:rgb(46, 5, 5) ;
+    font-size: 25px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    text-decoration: underline;
+}
+.about{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    width: 600px;
+    height: 850px;
+    border: 4px solid rgb(46, 5, 5);
+    position: relative;
+}
+.image img{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+.text{
+    padding-top: 150px;
+    padding-right: 50px;
+}
+.title{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(46, 5, 5);
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.text p{
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(46, 5, 5) ;
+    text-align: center;
+    line-height: 40px;
+}
+.products1{
+    height: 100vh;
+    padding: 0 30px;
+
+}
+.products2{
+    height: 80vh;
+    padding: 0 30px;
+
+}
+.container{
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-gap: 20px;
+}
+.product img{
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+.product p{
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(46, 5, 5) ;
+}
+.product h3{
+    
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(46, 5, 5);
+}
+.products1 p{
+    font-size: 30px;
+    color: rgb(46, 5, 5);
+}
+.products2 p{
+    font-size: 30px;
+    color: rgb(46, 5, 5);
+}
+.more{
+    text-decoration: none;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 20px;
+    
+}
+.more a{
+    text-decoration: none;
+    color: rgb(46, 5, 5);
+}
+.feedback{
+    border: 4px solid purple;
+    margin-top: 30px;
+    padding-top: 60px;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.feedback h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(46, 5, 5);
+
+}
+form input{
+    display:block;
+    width: 400px;
+    height: 45px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    margin-left: 200px;
+    background-color: rgb(174, 174, 193);
+    font-size: 20px;
+}
+form button{
+    background-color: rgb(174, 174, 193);
+    border: 2px solid purple;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+footer{
+    padding: 50px;
+    background:rgb(191, 191, 206);
+    display: flex;
+    justify-content: space-between;
+}
+.contact h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(46, 5, 5);
+}
+.contact p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(46, 5, 5);
+}
+.socials{
+    color: rgb(46, 5, 5);
+    font-size: 30px;
+}
+.socials i{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+    align-items: center;
+}
+.footer{
+    background:rgb(191, 191, 206);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(46, 5, 5);
+}
+
+
+
+
+
+
+
